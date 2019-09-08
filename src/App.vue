@@ -17,6 +17,11 @@ import 'vue-material/dist/vue-material.min.css'
 // import HelloWorld from './components/HelloWorld.vue'
 // import Header from './components/Header.vue'
 import Main from './components/Main.vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+ 
+Vue.use(VueAxios, axios)
+
 
 Vue.use(VueMaterial)
 
